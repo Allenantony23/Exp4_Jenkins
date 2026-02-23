@@ -30,8 +30,8 @@ pipeline {
                         url: 'http://localhost:8081'  // Ensure this is the correct Tomcat Manager URL
                     )
                 ],
-                contextPath: 'my-webapp',
-                war: 'my-webapp/target/webapp.war'  // Correct path to WAR file inside my-webapp
+              contextPath: 'my-webapp',
+        war: 'my-webapp/target/my-webapp.war'  // Correct path to WAR file inside my-webapp
             }
         }
     }
